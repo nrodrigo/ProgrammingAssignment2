@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## initialize and return a list of setter/getter functions
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## retrieve matrix if cached
+## otherwise, solve for inverse and cache using setmatrix
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
